@@ -1,0 +1,9 @@
+/* line 1, ../scss/_base.scss */
+.mdl-layout__header {
+  background-color: #252e30;
+}
+
+/* line 1, ../scss/modules/_hero.scss */
+.hero-content {
+  text-align: center;
+}
