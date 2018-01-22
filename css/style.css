@@ -1,9 +1,106 @@
 /* line 1, ../scss/_base.scss */
-.mdl-layout__header {
-  background-color: #252e30;
+* {
+  box-sizing: border-box;
 }
 
+/* line 5, ../scss/_base.scss */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 9, ../scss/_base.scss */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 13, ../scss/_base.scss */
+header {
+  background-color: #252e30 !important;
+}
+
+/* line 16, ../scss/_base.scss */
+b {
+  color: #2ecc71;
+}
+
+/* line 20, ../scss/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 24, ../scss/_base.scss */
+.mdl-layout__header-row {
+  padding: 0 10px;
+}
+
+/* line 28, ../scss/_base.scss */
+.page-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 34, ../scss/_base.scss */
+.mdl-layout-title {
+  font-weight: bold;
+}
+
+/* line 39, ../scss/_base.scss */
+.mdl-navigation a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 42, ../scss/_base.scss */
+.mdl-navigation a:hover {
+  color: #2ecc71;
+}
+
+/* line 47, ../scss/_base.scss */
+.mdl-layout__drawer-button {
+  left: 90%;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("$font_path/Roboto-Regular.eot");
+  src: url("$font_path/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("$font_path/Roboto-Regular.woff2") format("woff2"), url("$font_path/Roboto-Regular.woff") format("woff"), url("$font_path/Roboto-Regular.ttf") format("truetype"), url("$font_path/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /* line 1, ../scss/modules/_hero.scss */
-.hero-content {
+.hero-banner {
+  position: relative;
+}
+/* line 3, ../scss/modules/_hero.scss */
+.hero-banner .hero-content {
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
+}
+/* line 10, ../scss/modules/_hero.scss */
+.hero-banner .hero-content h3 {
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+/* line 18, ../scss/modules/_hero.scss */
+.hero-banner .hero-content button {
+  background: none;
+  border: 1px solid #fff;
+  width: 150px;
+}
+/* line 22, ../scss/modules/_hero.scss */
+.hero-banner .hero-content button a {
+  color: #fff;
+}
+/* line 25, ../scss/modules/_hero.scss */
+.hero-banner .hero-content button:hover {
+  background: #2ecc71;
 }
