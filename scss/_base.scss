@@ -21,14 +21,24 @@ a{
 	text-decoration: none;
 }
 
-.mdl-layout__header-row{
-	padding: 0 10px;
+.page-content-full-width{
+	width: 100%;
+	max-width: 1600px;
 }
 
 .page-content{
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+.main-content{
+	padding: 50px 0;
+}
+.mdl-layout__content{
+	display: block;
+}
+.mdl-layout__header-row{
+	padding: 0 10px;
 }
 
 .mdl-layout-title{
@@ -44,7 +54,15 @@ a{
 		}
 	}
 }
-.mdl-layout__drawer-button{
-	left: 90%;
-	
+
+.col-item{
+	h3{
+		font-size: 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $title;
+	}
+	p{
+		color: $text-gray;
+	}
 }
