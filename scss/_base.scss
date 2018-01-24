@@ -20,6 +20,9 @@ b{
 a{
 	text-decoration: none;
 }
+.section-gray{
+	background: #F2F2F1;
+}
 
 .page-content-full-width{
 	width: 100%;
@@ -64,5 +67,21 @@ a{
 	}
 	p{
 		color: $text-gray;
+	}
+}
+.page-content-full-width{
+	.mdl-grid, .mdl-cell{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.custom-button{
+	border: 1px solid $color-green;
+	background: none;
+	color: $color-green;
+	&:hover{
+		background: $color-green;
+		color: $color-white;
 	}
 }

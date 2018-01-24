@@ -29,59 +29,82 @@ a {
   text-decoration: none;
 }
 
-/* line 24, ../scss/_base.scss */
+/* line 23, ../scss/_base.scss */
+.section-gray {
+  background: #F2F2F1;
+}
+
+/* line 27, ../scss/_base.scss */
 .page-content-full-width {
   width: 100%;
   max-width: 1600px;
 }
 
-/* line 29, ../scss/_base.scss */
+/* line 32, ../scss/_base.scss */
 .page-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* line 34, ../scss/_base.scss */
+/* line 37, ../scss/_base.scss */
 .main-content {
   padding: 50px 0;
 }
 
-/* line 37, ../scss/_base.scss */
+/* line 40, ../scss/_base.scss */
 .mdl-layout__content {
   display: block;
 }
 
-/* line 40, ../scss/_base.scss */
+/* line 43, ../scss/_base.scss */
 .mdl-layout__header-row {
   padding: 0 10px;
 }
 
-/* line 44, ../scss/_base.scss */
+/* line 47, ../scss/_base.scss */
 .mdl-layout-title {
   font-weight: bold;
 }
 
-/* line 49, ../scss/_base.scss */
+/* line 52, ../scss/_base.scss */
 .mdl-navigation a {
   text-transform: uppercase;
   font-weight: bold;
 }
-/* line 52, ../scss/_base.scss */
+/* line 55, ../scss/_base.scss */
 .mdl-navigation a:hover {
   color: #2ecc71;
 }
 
-/* line 59, ../scss/_base.scss */
+/* line 62, ../scss/_base.scss */
 .col-item h3 {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
   color: #747e80;
 }
-/* line 65, ../scss/_base.scss */
+/* line 68, ../scss/_base.scss */
 .col-item p {
   color: #9a9a9a;
+}
+
+/* line 73, ../scss/_base.scss */
+.page-content-full-width .mdl-grid, .page-content-full-width .mdl-cell {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 79, ../scss/_base.scss */
+.custom-button {
+  border: 1px solid #2ecc71;
+  background: none;
+  color: #2ecc71;
+}
+/* line 83, ../scss/_base.scss */
+.custom-button:hover {
+  background: #2ecc71;
+  color: #fff;
 }
 
 @font-face {
